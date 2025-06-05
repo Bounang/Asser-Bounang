@@ -2,18 +2,17 @@
 
 // Données de profil
 const profileData = {
-    nom: "Jean Dupont",
-    titre: "Développeur Web & Designer UI/UX",
-    email: "contact@jeandupont.fr",
-    telephone: "+33 6 12 34 56 78",
-    adresse: "Paris, France",
-    bio: "Développeur web passionné avec plus de 5 ans d'expérience dans la création d'applications web modernes et réactives. Spécialisé dans les technologies JavaScript et le design UI/UX.",
-    photo: "images/profile.jpg",
+    nom: "BOUNANG ZADBE Asser",
+    titre: "Informaticien & Développeur Web",
+    email: "bounangasser9@gmail.com",
+    telephone: "(+237) 6 55 83 33 65 / 6 52 83 40 33",
+    adresse: "Douala, Cameroun",
+    bio: "Développeur web passionné avec plus de 5 ans d'expérience dans la création d'applications web modernes et réactives. Spécialisé dans les technologies JavaScript et .NET",
+    photo: "img/profile.jpg",
     reseauxSociaux: [
-        { nom: "LinkedIn", url: "https://linkedin.com/in/jeandupont", icone: "linkedin" },
-        { nom: "GitHub", url: "https://github.com/jeandupont", icone: "github" },
-        { nom: "Twitter", url: "https://twitter.com/jeandupont", icone: "twitter" },
-        { nom: "Dribbble", url: "https://dribbble.com/jeandupont", icone: "dribbble" }
+        { nom: "LinkedIn", url: "https://linkedin.com/in/asser-bounang-zadbe-8a2a39131", icone: "linkedin" },
+        { nom: "GitHub", url: "https://github.com/Bounang", icone: "github" },
+        { nom: "Twitter", url: "https://x.com/AsserZadbe", icone: "twitter" },
     ]
 };
 
@@ -23,50 +22,51 @@ const skillsData = [
         { nom: "HTML/CSS", niveau: 95 },
         { nom: "JavaScript", niveau: 90 },
         { nom: "React", niveau: 85 },
-        { nom: "Vue.js", niveau: 80 },
-        { nom: "Angular", niveau: 75 }
+        { nom: "Razor", niveau: 80 },
+        { nom: "Syncfusion", niveau: 75 }
     ]},
     { categorie: "Backend", competences: [
-        { nom: "Node.js", niveau: 85 },
-        { nom: "Express", niveau: 80 },
-        { nom: "PHP", niveau: 70 },
-        { nom: "Python", niveau: 65 },
-        { nom: "MongoDB", niveau: 75 }
+        { nom: ".NET Core", niveau: 95 },
+        { nom: "Python", niveau: 90 },
+        { nom: "PHP", niveau: 85 },
+        { nom: "Django", niveau: 80 },
+        { nom: "MySQL", niveau: 80 },
+        { nom: "SQL Server", niveau: 80 },
+        { nom: "PostgrSQL", niveau: 70 },
+        { nom: "Node.js", niveau: 70 },
+        { nom: "Express", niveau: 70 }     
     ]},
     { categorie: "Design", competences: [
-        { nom: "Figma", niveau: 90 },
-        { nom: "Adobe XD", niveau: 85 },
-        { nom: "Photoshop", niveau: 80 },
-        { nom: "Illustrator", niveau: 75 },
-        { nom: "UI/UX", niveau: 90 }
+        { nom: "Figma", niveau: 50 },
+        { nom: "UI/UX", niveau: 50 }
     ]}
 ];
 
 // Données de parcours (timeline)
 const timelineData = [
     {
-        periode: "2022 - Présent",
-        titre: "Développeur Frontend Senior",
-        entreprise: "Tech Innovations",
-        description: "Développement d'applications web complexes avec React et Vue.js. Mise en place d'architectures frontend robustes et évolutives."
+        periode: "2023 - Présent",
+        titre: "Master en Informatique de Gestion",
+        entreprise: "Université de Douala",
+        description: "Formation avancée en gestion des systèmes d'information, développement web et mobile, avec un accent sur les technologies émergentes et l'IA."
     },
     {
-        periode: "2019 - 2022",
+        periode: "2021 - 2022",
         titre: "Développeur Full Stack",
-        entreprise: "Digital Solutions",
-        description: "Création d'applications web complètes, du backend au frontend, en utilisant Node.js, Express et React."
+        entreprise: "Université de Douala",
+        description: "Création d'applications web complètes, du backend au frontend, en utilisant C#, .NET et Xamarin.Forms."
     },
     {
-        periode: "2017 - 2019",
-        titre: "Designer UI/UX & Développeur Frontend",
-        entreprise: "Creative Agency",
-        description: "Conception d'interfaces utilisateur et développement frontend pour divers clients dans les secteurs du e-commerce et des médias."
+        periode: "2019 - 2021",
+        titre: "DUT en Informatique",
+        entreprise: "Université de Douala",
+        description: "Formation approfondie en développement web, bases de données et programmation orientée objet."
     },
     {
-        periode: "2015 - 2017",
-        titre: "Master en Développement Web",
-        entreprise: "Université de Paris",
-        description: "Spécialisation en technologies web modernes et design d'interface utilisateur."
+        periode: "2009 - 2018",
+        titre: "Baccalaureat Technique",
+        entreprise: "CEFTI de Douala",
+        description: "Spécialisation en Electronique."
     }
 ];
 
@@ -79,7 +79,7 @@ const projectsData = [
         image: "images/project1.jpg",
         technologies: ["React", "Node.js", "MongoDB"],
         description: "Plateforme e-commerce complète avec paiement en ligne, gestion des stocks et interface d'administration.",
-        lien: "https://example.com/project1",
+        lien: " ",
         client: "Fashion Retail",
         date: "2023"
     },
@@ -90,7 +90,7 @@ const projectsData = [
         image: "images/project2.jpg",
         technologies: ["Vue.js", "Express", "PostgreSQL"],
         description: "Système de gestion interne pour entreprise, incluant gestion des ressources humaines, projets et finances.",
-        lien: "https://example.com/project2",
+        lien: " ",
         client: "Corporate Services",
         date: "2022"
     },
@@ -101,7 +101,7 @@ const projectsData = [
         image: "images/project3.jpg",
         technologies: ["HTML/CSS", "JavaScript", "Figma"],
         description: "Portfolio interactif pour artiste avec galerie dynamique et animations personnalisées.",
-        lien: "https://example.com/project3",
+        lien: " ",
         client: "Artiste Indépendant",
         date: "2022"
     },
@@ -112,7 +112,7 @@ const projectsData = [
         image: "images/project4.jpg",
         technologies: ["React", "Firebase", "Node.js"],
         description: "Plateforme d'apprentissage en ligne avec cours vidéo, quiz interactifs et suivi de progression.",
-        lien: "https://example.com/project4",
+        lien: " ",
         client: "Institut Éducatif",
         date: "2021"
     },
@@ -123,7 +123,7 @@ const projectsData = [
         image: "images/project5.jpg",
         technologies: ["React Native", "Firebase", "Redux"],
         description: "Application de suivi fitness avec plans d'entraînement personnalisés et suivi des progrès.",
-        lien: "https://example.com/project5",
+        lien: " ",
         client: "Fitness Center",
         date: "2021"
     },
@@ -134,7 +134,7 @@ const projectsData = [
         image: "images/project6.jpg",
         technologies: ["D3.js", "React", "Node.js"],
         description: "Tableau de bord analytique avec visualisations de données complexes et rapports personnalisables.",
-        lien: "https://example.com/project6",
+        lien: " ",
         client: "Data Analytics Corp",
         date: "2020"
     }
@@ -239,28 +239,28 @@ const testimonialsData = [
     {
         nom: "Sophie Martin",
         poste: "Directrice Marketing, TechCorp",
-        photo: "images/testimonial1.jpg",
+        photo: "img/testimonial1.jpg",
         texte: "Jean a complètement transformé notre présence en ligne. Son expertise en design et développement nous a permis de multiplier par trois notre taux de conversion.",
         note: 5
     },
     {
         nom: "Thomas Dubois",
         poste: "Fondateur, StartupInnovation",
-        photo: "images/testimonial2.jpg",
+        photo: "img/testimonial2.jpg",
         texte: "Travailler avec Jean a été une expérience exceptionnelle. Il a su comprendre nos besoins et livrer un produit qui dépasse nos attentes.",
         note: 5
     },
     {
         nom: "Marie Leroy",
         poste: "Directrice Artistique, CreativeStudio",
-        photo: "images/testimonial3.jpg",
+        photo: "img/testimonial3.jpg",
         texte: "La créativité et les compétences techniques de Jean sont impressionnantes. Il a créé pour nous un site web qui se démarque vraiment de la concurrence.",
         note: 4.5
     },
     {
         nom: "Pierre Moreau",
         poste: "CEO, E-commerce Solutions",
-        photo: "images/testimonial4.jpg",
+        photo: "img/testimonial4.jpg",
         texte: "Notre plateforme e-commerce développée par Jean a considérablement amélioré l'expérience utilisateur et augmenté nos ventes de 45% en six mois.",
         note: 5
     }
@@ -275,7 +275,7 @@ const blogData = [
         image: "images/blog1.jpg",
         date: "15 mai 2025",
         categorie: "Design",
-        auteur: "Jean Dupont"
+        auteur: "Bounang Zasdbe Asser"
     },
     {
         id: 2,
@@ -284,7 +284,7 @@ const blogData = [
         image: "images/blog2.jpg",
         date: "28 avril 2025",
         categorie: "Développement",
-        auteur: "Jean Dupont"
+        auteur: "Bounang Zasdbe Asser"
     },
     {
         id: 3,
@@ -293,7 +293,7 @@ const blogData = [
         image: "images/blog3.jpg",
         date: "10 avril 2025",
         categorie: "UX/UI",
-        auteur: "Jean Dupont"
+        auteur: "Bounang Zasdbe Asser"
     },
     {
         id: 4,
@@ -302,7 +302,7 @@ const blogData = [
         image: "images/blog4.jpg",
         date: "2 avril 2025",
         categorie: "Développement",
-        auteur: "Jean Dupont"
+        auteur: "Bounang Zasdbe Asser"
     },
     {
         id: 5,
@@ -311,7 +311,7 @@ const blogData = [
         image: "images/blog5.jpg",
         date: "20 mars 2025",
         categorie: "Marketing",
-        auteur: "Jean Dupont"
+        auteur: "Bounang Zasdbe Asser"
     },
     {
         id: 6,
@@ -320,24 +320,24 @@ const blogData = [
         image: "images/blog6.jpg",
         date: "5 mars 2025",
         categorie: "Design",
-        auteur: "Jean Dupont"
+        auteur: "Bounang Zasdbe Asser"
     }
 ];
 
 // Données de contact
 const contactData = {
-    email: "contact@jeandupont.fr",
-    telephone: "+33 6 12 34 56 78",
-    adresse: "123 Avenue des Champs-Élysées, 75008 Paris, France",
+    email: "bounangasser9@gmail.com",
+    telephone: "(+237) 6 55 83 33 65 / 6 52 83 40 33",
+    adresse: "Yassa - Bwang Bakoko, Douala, Cameroun",
     horaires: "Lundi - Vendredi: 9h - 18h",
     coordonnees: {
-        lat: 48.8566,
-        lng: 2.3522
+        lat: 3.98091,
+        lng: 9.82179
     },
     reseauxSociaux: [
-        { nom: "LinkedIn", url: "https://linkedin.com/in/jeandupont", icone: "linkedin" },
-        { nom: "GitHub", url: "https://github.com/jeandupont", icone: "github" },
-        { nom: "Twitter", url: "https://twitter.com/jeandupont", icone: "twitter" },
-        { nom: "Instagram", url: "https://instagram.com/jeandupont", icone: "instagram" }
+        { nom: "LinkedIn", url: "https://linkedin.com/in/asser-bounang-zadbe-8a2a39131", icone: "linkedin" },
+        { nom: "GitHub", url: "https://github.com/Bounang", icone: "github" },
+        { nom: "Twitter", url: "https://x.com/AsserZadbe", icone: "twitter" },
+        { nom: "Instagram", url: "https://instagram.com/asser-bounang", icone: "instagram" }
     ]
 };
