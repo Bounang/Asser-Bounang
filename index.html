@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Professionnel | Syncfusion</title>
+    
+    <!-- Styles Syncfusion Essential JS 2 -->
+    <link href="https://cdn.syncfusion.com/ej2/material.css" rel="stylesheet">
+    
+
+    
+    <!-- Styles personnalisés -->
+    <link href="css/styles.css" rel="stylesheet">
+    
+    <!-- Polices -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <header id="navbar-container">
+        <!-- Le menu sera généré par Syncfusion Sidebar -->
+    </header>
+
+    <!-- Conteneur principal -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <div id="sidebar"></div>
+        
+        <!-- Contenu principal -->
+        <div class="content-wrapper">
+            <!-- Section Accueil -->
+            <section id="accueil" class="section active">
+                <div class="hero-container">
+                    <div id="particles-container"></div>
+                    <div class="hero-content">
+                        <h1 id="typewriter"></h1>
+                        <p class="subtitle">Développeur Web & Designer UI/UX</p>
+                        <div id="social-icons"></div>
+                        <div id="cta-buttons">
+                            <button id="contact-btn" class="e-btn e-primary">Me contacter</button>
+                            <button id="portfolio-btn" class="e-btn">Voir mon portfolio</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section À propos -->
+            <section id="a-propos" class="section">
+                <div class="section-container">
+                    <h2 class="section-title">À propos de moi</h2>
+                    <div class="about-grid">
+                        <div class="about-image">
+                            <div id="profile-card"></div>
+                        </div>
+                        <div class="about-content">
+                            <div id="about-tabs"></div>
+                        </div>
+                    </div>
+                    <div class="skills-container">
+                        <h3>Mes compétences</h3>
+                        <div id="skills-chart"></div>
+                    </div>
+                    <div class="timeline-container">
+                        <h3>Mon parcours</h3>
+                        <div id="timeline"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Projets -->
+            <section id="projets" class="section">
+                <div class="section-container">
+                    <h2 class="section-title">Mes projets</h2>
+                    <div id="projects-filter"></div>
+                    <div id="projects-grid"></div>
+                    <div id="project-dialog"></div>
+                </div>
+            </section>
+
+            <!-- Section Services -->
+            <section id="services" class="section">
+                <div class="section-container">
+                    <h2 class="section-title">Mes services</h2>
+                    <div id="services-carousel"></div>
+                    <div class="pricing-container">
+                        <h3>Tarifs</h3>
+                        <div id="pricing-cards"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Témoignages -->
+            <section id="temoignages" class="section">
+                <div class="section-container">
+                    <h2 class="section-title">Témoignages</h2>
+                    <div id="testimonials-carousel"></div>
+                </div>
+            </section>
+
+            <!-- Section Blog -->
+            <section id="blog" class="section">
+                <div class="section-container">
+                    <h2 class="section-title">Blog</h2>
+                    <div id="blog-grid"></div>
+                    <div id="blog-pagination"></div>
+                </div>
+            </section>
+
+            <!-- Section Contact -->
+            <section id="contact" class="section">
+                <div class="section-container">
+                    <h2 class="section-title">Contact</h2>
+                    <div class="contact-grid">
+                        <div class="contact-info">
+                            <div id="contact-card"></div>
+                            <div id="map-container"></div>
+                        </div>
+                        <div class="contact-form">
+                            <div id="contact-form-container"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="footer-container">
+            <div id="footer-grid"></div>
+            <div class="copyright">
+                <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Composants supplémentaires -->
+    <div id="notification"></div>
+    <div id="theme-switcher"></div>
+    <div id="scroll-to-top"></div>
+    <div id="loading-indicator"></div>
+
+    <!-- Scripts Syncfusion Essential JS 2 -->
+    <script src="https://cdn.syncfusion.com/ej2/dist/ej2.min.js"></script>
+    
+    <!-- Scripts personnalisés -->
+    <script src="js/app.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/data.js"></script>
+</body>
+</html>
